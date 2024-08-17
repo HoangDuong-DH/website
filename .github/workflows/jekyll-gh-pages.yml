@@ -33,9 +33,9 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./website/glowing-bootstrap-5-v1.3/glowing-bootstrap-5/dist
+          source: ./website/glowing-bootstrap-5-v1.3/glowing-bootstrap-5
           destination: ./_site
-          name: index.html
+          name: ./dist/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
