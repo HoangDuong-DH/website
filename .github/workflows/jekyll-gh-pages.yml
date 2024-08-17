@@ -35,7 +35,7 @@ jobs:
         with:
           source: ./website/glowing-bootstrap-5-v1.3/glowing-bootstrap-5
           destination: ./_site
-          name: ./dist/index.html
+          name: dist/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
