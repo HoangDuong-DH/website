@@ -6,7 +6,7 @@
    @font-face {
     font-family: "Canela Black Trial";
     src: /*url("../../../src/static/assets/fonts/Canela-Black-Trial.otf") format("woff2"),*/
-     url("../../../src/static/assets/fonts/Canela-Light-Trial.otf") format("woff");
+     url("../fonts/Canela-Light-Trial.otf") format("woff");
     font-weight: normal;
     font-style: normal;
    }
