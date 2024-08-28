@@ -97,8 +97,8 @@
   --bs-tertiary-color-rgb: 126, 126, 126;
   --bs-tertiary-bg: #f8f8f8;
   --bs-tertiary-bg-rgb: 248, 248, 248;
-  --bs-body-bg: #fff;
-  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-body-bg: #eaf3ed;
+  --bs-body-bg-rgb: 234,242,237;
   --bs-heading-color: #000;
   --bs-link-color: #000;
   --bs-link-color-rgb: 0, 0, 0;
@@ -4511,7 +4511,7 @@ textarea.form-control-lg {
   --bs-btn-font-weight: 600;
   --bs-btn-line-height: 1.625;
   --bs-btn-color: #7e7e7e;
-  --bs-btn-bg: transparent;
+  --bs-btn-bg: #008e33;
   --bs-btn-border-width: 2px;
   --bs-btn-border-color: transparent;
   --bs-btn-border-radius: 0.1875rem;
@@ -4711,8 +4711,8 @@ textarea.form-control-lg {
 
 .btn-dark {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #000;
-  --bs-btn-border-color: #000;
+  --bs-btn-bg: #008e33;
+  --bs-btn-border-color: #008e33;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #262626;
   --bs-btn-hover-border-color: #1a1a1a;
@@ -29629,7 +29629,11 @@ svg.icon {
 }
 
 .lazy-bg {
-  position: relative;
+  background-size: cover; /* Đảm bảo hình ảnh phủ toàn bộ div */
+  background-position: center; /* Canh giữa hình ảnh trong div */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+  width: 100%;
+  height: 100vh; /* Sử dụng toàn bộ chiều cao màn hình */
 }
 
 .lazy-bg.lazy-bg {
